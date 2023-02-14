@@ -21,7 +21,6 @@ import {
   userPasswordUpdate,
 } from "./reducers/UserReducers";
 
-import { composeWithDevTools } from "redux-devtools-extension";
 import { aiGetDataReducer } from "./reducers/aiReducers";
 import {
   stripeGetDataReducer,
@@ -54,9 +53,6 @@ const reducres = combineReducers({
 });
 
 const middlewares = [thunk];
-const store = createStore(
-  reducres,
-  composeWithDevTools(applyMiddleware(...middlewares))
-);
+const store = createStore(reducres, applyMiddleware(...middlewares));
 
 export default store;

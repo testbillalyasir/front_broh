@@ -1,2 +1,2 @@
-const backend_api = "http://localhost:5000";
+const backend_api = "https://broh-backend.vercel.app";
 export default backend_api;
