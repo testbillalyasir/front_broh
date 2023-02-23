@@ -21,7 +21,7 @@ import {
   userPasswordUpdate,
 } from "./reducers/UserReducers";
 
-import { aiGetDataReducer } from "./reducers/aiReducers";
+import { aiGetDataReducer } from "@/redux/reducers/userReducers";
 import {
   stripeGetDataReducer,
   stripePostDataReducer,
