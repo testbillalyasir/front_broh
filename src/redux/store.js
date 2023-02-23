@@ -19,7 +19,7 @@ import {
   userProfile,
   userResetPasswordEmailReducer,
   userPasswordUpdate,
-} from "./reducers/UserReducers";
+} from "@/redux/reducers/userReducers";
 
 import { aiGetDataReducer } from "@/redux/reducers/userReducers";
 import {
